@@ -1,9 +1,3 @@
-# SFDX App
-
-## Dev, Build and Test
-
-## Resources
-
-## Description of Files and Directories
-
-## Issues
+ISV Codey Inc 
+Credit Check Application
+ISV Codey Helps You Obtain Accurate Credit Checks for Your Customers 
