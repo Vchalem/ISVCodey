@@ -1,0 +1,116 @@
+[
+    [
+        "/Users/vchalem/ISVCodey/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vchalem/ISVCodey/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1605113199448,
+            "changeTime": 1605113237666,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/vchalem/ISVCodey/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vchalem/ISVCodey/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1605113199448,
+            "changeTime": 1605113199448,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ISVCodey/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/vchalem/ISVCodey/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1605113685963,
+            "changeTime": 1605113685963,
+            "contentHash": "eb5dc5ca19caa3ecb65ddc9489654a4a381ab04a"
+        }
+    ],
+    [
+        "/Users/vchalem/ISVCodey/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vchalem/ISVCodey/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 64,
+            "modifiedTime": 1605113199448,
+            "changeTime": 1605113199448,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ISVCodey/force-app/main/default/lwc",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vchalem/ISVCodey/force-app/main/default/lwc",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 64,
+            "modifiedTime": 1605113199448,
+            "changeTime": 1605113199448,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ISVCodey",
+        {
+            "state": "n",
+            "sourcePath": "/Users/vchalem/ISVCodey",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 288,
+            "modifiedTime": 1605113375850,
+            "changeTime": 1605113375850,
+            "contentHash": "16868298e9ea95b2317d19daddbd77a3bf6112bc",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/vchalem/ISVCodey/force-app/main/default/flows/Credit_Check.flow-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/vchalem/ISVCodey/force-app/main/default/flows/Credit_Check.flow-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2634,
+            "modifiedTime": 1605113685964,
+            "changeTime": 1605113685964,
+            "contentHash": "a08603fd9e27b78b9f900bc202df3b6c8b614a79"
+        }
+    ],
+    [
+        "/Users/vchalem/ISVCodey/force-app/main/default/flows",
+        {
+            "state": "u",
+            "sourcePath": "/Users/vchalem/ISVCodey/force-app/main/default/flows",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1605113685964,
+            "changeTime": 1605113685964,
+            "contentHash": "4c53ebccebb53c9fdb74130f31f02f8559bb14b2"
+        }
+    ]
+]

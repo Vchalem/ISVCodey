@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Credit Check {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Credit Check</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Credit_Info</name>
+        <label>Get Credit Info</label>
+        <locationX>437</locationX>
+        <locationY>226</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Run_Credit_Check</targetReference>
+        </connector>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Account_with_Credit_Info</name>
+        <label>Update Account with Credit Info</label>
+        <locationX>116</locationX>
+        <locationY>228</locationY>
+        <inputReference>Get_Credit_Info</inputReference>
+    </recordUpdates>
+    <screens>
+        <name>Welcome</name>
+        <label>Welcome</label>
+        <locationX>433</locationX>
+        <locationY>48</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Get_Credit_Info</targetReference>
+        </connector>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Welcome</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Run_Credit_Check</name>
+        <label>Run Credit Check</label>
+        <locationX>259</locationX>
+        <locationY>227</locationY>
+        <connector>
+            <targetReference>Update_Account_with_Credit_Info</targetReference>
+        </connector>
+        <flowName>setup_service_experience__Verify_Cust</flowName>
+    </subflows>
+</Flow>
